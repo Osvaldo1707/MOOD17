@@ -1,4 +1,8 @@
+"use client"
+import { useState } from "react";
+import "./login.css"
 
+export default function Login() 
 const [state, setState] = useState({
     email:"",
     password,
