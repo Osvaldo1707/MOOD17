@@ -1,7 +1,7 @@
 
 const [state, setState] = useState({
-    email:""
-    password 
+    email:"",
+    password,
 });
 
 const handleChange = (event) => {
@@ -12,6 +12,7 @@ const handleChange = (event) => {
         })    
         
 }
+
 
 return (
     <div className="container"> 
